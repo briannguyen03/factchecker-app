@@ -52,7 +52,7 @@ def main():
 
     if "nhandan.vn" in url:
         parse_vn(url)
-    elif "theonion.com" in url:
+    elif "theonion.com" in url or "cnn.com" in url:
         parse_onion(url)
     else:
         print("Error: Unsupported site")
